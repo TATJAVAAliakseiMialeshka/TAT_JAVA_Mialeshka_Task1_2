@@ -71,7 +71,6 @@ public class Counter {
 		for (int i = 0; i < arrayOfNaturalNumbers.length; i++) {
 			
 			if (arrayOfNaturalNumbers[i] % K == 0) {
-				 
 				sum = sum + arrayOfNaturalNumbers[i];
 				
 			}

@@ -10,6 +10,8 @@
 			<class name="task3.TriangleTest"></class>
 			<class name="task4.CoordinateTest"></class>
 			<class name="task5.CounterTest"></class>
+			<class name="task6.CounterTest"></class>
+			<class name="task8.CounterTest"></class>
 			<class name="util.ArgConverterTest"></class>
 			<class name="util.ArgValidatorTest"></class>
 

@@ -21,7 +21,7 @@ public class Counter {
 	
 
     public double countMax() {
-    	
+
         if ( (a > b) && (a > c) ) {
         	
             return a;
