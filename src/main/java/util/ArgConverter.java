@@ -112,4 +112,32 @@ public class ArgConverter {
 		
     }
 
+public int[] convertToIntArray(String[] array) {
+		
+		int [] array_converted = new int[array.length];
+		 
+		try {
+			
+		    for (int i = 0; i < array.length; i++) {
+		    	
+		    	array_converted[i] = Integer.parseInt(array[i]);
+		    	
+		
+		    }
+		
+		}
+		
+		catch (NumberFormatException e) {
+			
+			throw new InvalidArgException
+			    ("You have entered incorrect data: only integers are valid for input.");
+
+			
+		 }
+		
+		return array_converted; 
+	
+		
+    }
+
 }
