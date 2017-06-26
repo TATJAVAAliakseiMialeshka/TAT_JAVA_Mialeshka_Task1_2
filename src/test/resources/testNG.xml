@@ -12,6 +12,7 @@
 			<class name="task5.CounterTest"></class>
 			<class name="task6.CounterTest"></class>
 			<class name="task8.CounterTest"></class>
+			<class name="task10.SquareMatrixTest"></class>
 			<class name="util.ArgConverterTest"></class>
 			<class name="util.ArgValidatorTest"></class>
 

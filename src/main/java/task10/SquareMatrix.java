@@ -17,7 +17,6 @@ public class SquareMatrix {
 	public int[][] generateSquareMatrix() {
 		
 		if (n > 0) {
-			
 			matrix = new int[n][n];
 
 			for (int i = 0; i < matrix.length; i++) {
@@ -39,7 +38,6 @@ public class SquareMatrix {
 			}
 			
 		}
-		
 		return matrix;
 		
 	}
